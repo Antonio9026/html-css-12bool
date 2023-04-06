@@ -3,17 +3,23 @@ section{
     margin:40px 0;
 }
 
-
-
-
+.word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
 
 
 
 
 
 /* debug */
-[class*="col-"]{
+[class*="col"]{
+   
     min-height: 50px;
     background-color: #006cfa;
     border:solid 2px white;
 }
+
+
