@@ -3,12 +3,18 @@ section{
     margin:40px 0;
 }
 .row{
-    height: 50px;
-}
-.col{
+   
     min-height: 50px;
 }
-
+.col{
+    height: 50px;
+}
+.double{
+    height: 100px;
+}
+.half{
+    height: 50px; 
+}
 
 /* debug */
 .blue{
