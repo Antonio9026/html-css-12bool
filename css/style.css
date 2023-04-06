@@ -2,24 +2,26 @@
 section{
     margin:40px 0;
 }
-
-.word{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
+.row{
+    height: 50px;
 }
-
-
-
+.col{
+    min-height: 50px;
+}
 
 
 /* debug */
-[class*="col"]{
-   
-    min-height: 50px;
-    background-color: #006cfa;
-    border:solid 2px white;
+.blue{
+    border: 0.5px solid white;
+    background-color: #006cfa; 
+    color: white;
 }
+.black{
+    border: 0.5px solid white;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
 
 

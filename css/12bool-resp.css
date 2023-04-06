@@ -291,9 +291,7 @@
 
     }
         /* bonus */
-         .flex-md{
-            display: flex;
-         }
+        
         .start-md{
             justify-content: flex-start;
             text-align: start;
